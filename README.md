@@ -27,12 +27,12 @@ powershellを再起動してください。 (ターミナルエミュレータ�
 
 ALL SET :)
 
-*if still you can't run, please try loosing execution policy.*
+>*if still you can't run, please try loosing execution policy.*
 
-`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted` (not recommended)
-*or copy paste as new psm1 and psd1 file.*
+>`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted` (not recommended)
+*or copy paste to new psm1 and psd1 file.*
 
-_それでも動かなかった場合は、上記のコマンドでポリシーを緩めるか、.psm1と.psd1ファイルを新しく作成して内容をコピペしてください。_
+>_それでも動かなかった場合は、上記のコマンドでポリシーを緩めるか、.psm1と.psd1ファイルを新しく作成して内容をコピペしてください。_
 
 ## Usage
 `Clone-All -u <UserName>` or shortly, `clall <UserName>`
