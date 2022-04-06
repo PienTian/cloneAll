@@ -19,13 +19,20 @@ you may need to unblock program.
 プログラムの実行を許可しなければいけないかもしれません。
 
 * eg)
-`Unblock-File cloneAll.psm1`
+`Unblock-File cloneAll.psm1` (also you may need to `Unblock-File cloneAll.psd1`)
 
 restart powershell (close and open new terminal emulator)
 
 powershellを再起動してください。 (ターミナルエミュレータを閉じて新しく開く）
 
 ALL SET :)
+
+*if still you can't run, please try loosing execution policy.
+
+>`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted` (not recommended)
+*or copy paste as new psm1 and psd1 file.
+*それでも動かなかった場合は、上記のコマンドでポリシーを緩めるか、.psm1と.psd1ファイルを新しく作成して内容をコピペしてください。
+
 ## Usage
 `Clone-All -u <UserName>` or shortly, `clall <UserName>`
 
