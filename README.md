@@ -1,21 +1,15 @@
 # cloneAll
 This powershell command let you clone a user's all public repositories on github in one command.
-
-コマンド一つでそのユーザーのgithub上のレポジトリをすべてクローンするコマンドを作りました。
-
 Command is defined on powershell module file (.psm1)
 
+コマンド一つでそのユーザーのgithub上のレポジトリをすべてクローンするコマンドを作りました。
 コマンドはpowershellモデュールファイル(.psm1)上に定義されています。
 
 
 ## Set up to use the command
-Put 'cloneAll' directory under 'C:\Windows\System32\WindowsPowerShell\v1.0\Modules' directory.
+Put 'cloneAll' directory under 'C:\Windows\System32\WindowsPowerShell\v1.0\Modules' directory. Make sure you have appropriate powershell execution policy. Here is an example.
 
-'C:\Windows\System32\WindowsPowerShell\v1.0\Modules'下に'cloneAll'ディレクトリを置いてください。
-
-make sure you have appropriate powershell execution policy. Here is an example.
-
-適当なpowershell実行ポリシーであることを確認してください。
+'C:\Windows\System32\WindowsPowerShell\v1.0\Modules'下に'cloneAll'ディレクトリを置いてください。適当なpowershell実行ポリシーであることを確認してください。
 
 eg) remoteSigned
 `Set-ExecutionPolicy remoteSigned`   (run as admin is required)
@@ -37,9 +31,9 @@ ALL SET :)
 
 Just use like when you clone a repository.
 
-普段クローンするときのように使ってください。
-
 To illustrate, you can clone all my public repositories by following command
+
+普段クローンするときのように使ってください。
 
 例えば、以下のコマンドで私のすべての公開レポジトリをクローン出来ます。
 
