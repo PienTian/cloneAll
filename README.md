@@ -27,7 +27,7 @@ powershellを再起動してください。 (ターミナルエミュレータ�
 
 ALL SET :)
 ## Usage
-`Clone-All -u <UserName>' or shortly, 'clall <UserName>`
+`Clone-All -u <UserName>` or shortly, `clall <UserName>`
 
 Just use like when you clone a repository.
 
