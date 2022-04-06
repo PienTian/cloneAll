@@ -11,14 +11,14 @@ Put 'cloneAll' directory under 'C:\Windows\System32\WindowsPowerShell\v1.0\Modul
 
 'C:\Windows\System32\WindowsPowerShell\v1.0\Modules'下に'cloneAll'ディレクトリを置いてください。適当なpowershell実行ポリシーであることを確認してください。
 
-eg) remoteSigned
+* eg) remoteSigned
 `Set-ExecutionPolicy remoteSigned`   (run as admin is required)
 
 you may need to unblock program.
 
 プログラムの実行を許可しなければいけないかもしれません。
 
-eg)
+* eg)
 `Unblock-File cloneAll.psm1`
 
 restart powershell (close and open new terminal emulator)
