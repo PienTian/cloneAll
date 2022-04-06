@@ -43,9 +43,9 @@ To illustrate, you can clone all my public repositories by following command
 
 例えば、以下のコマンドで私のすべての公開レポジトリをクローン出来ます。
 
-** `Clone-All PienTian` **
+**`Clone-All PienTian`**
 
 
 * This program only works against public repository on github.com. you can't use this to other git service or private repos. *
 
-*　このコマンドはgithub上の公開レポジトリにのみ使えます。ほかのサービスや非公開レポジトリには使えません。 *
+* このコマンドはgithub上の公開レポジトリにのみ使えます。ほかのサービスや非公開レポジトリには使えません。 *
