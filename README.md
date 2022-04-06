@@ -31,6 +31,7 @@ ALL SET :)
 
 `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted` (not recommended)
 *or copy paste as new psm1 and psd1 file.*
+
 *それでも動かなかった場合は、上記のコマンドでポリシーを緩めるか、.psm1と.psd1ファイルを新しく作成して内容をコピペしてください。*
 
 ## Usage
