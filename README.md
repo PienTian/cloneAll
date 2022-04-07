@@ -48,6 +48,6 @@ To illustrate, you can clone all my public repositories by following command
 **`Clone-All PienTian`**
 
 
-* This program only works against public repository on github.com. you can't use this to other git service or private repos. 
+* This program only works against public repository on github.com. you can't use this command to other git services or private repos. 
 
 * このコマンドはgithub上の公開レポジトリにのみ使えます。ほかのサービスや非公開レポジトリには使えません。
