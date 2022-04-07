@@ -1,8 +1,8 @@
-# cloneAll
-This powershell command let you clone a user's all public repositories on github in one command.
+# cloneAllRepositories (command: clone-all)
+This powershell module let you clone a user's all public repositories on github in one command.
 Command is defined on powershell module file (.psm1)
 
-コマンド一つでそのユーザーのgithub上のレポジトリをすべてクローンするコマンドを作りました。
+コマンド一つでそのユーザーのgithub上のレポジトリをすべてクローンするコマンドモデュールを作りました。
 コマンドはpowershellモデュールファイル(.psm1)上に定義されています。
 
 
